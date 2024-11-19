@@ -1,5 +1,5 @@
 # MLMF：Multi-layer matrix factorization for cancer subtyping using full and partial multi-omics dataset
-
+---
 
 ## Introduction
 
@@ -25,15 +25,23 @@ data/
 ├── ...
 ```
 ## Running
-* This paper contains two 
-
+* This paper contains the linear algorithm part and the nonlinear algorithm part of MLMF, which you can run separately
+* For Linear MLMF:
 ```
-
+#run Linear_MLMF.m
+#the costs are saved in ./MDMF_linear
 ```
-
+* For Nonlinear MLMF:
+```
+#run Nonlinear_MLMF.m
+#the costs are saved in ./MLMF_nonlinear
+```
 
 ----
 
-## Usage
-
-
+## Comparison
+the program of the comparison methods:
+```
+./Comparison
+```
+MLMF is based on the MATLAB and R language.
